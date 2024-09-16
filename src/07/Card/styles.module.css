@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+
+    width: 90vw;
+    height: 25vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.image {
+    height: 100px;
+}
+
+.containerText {
+    height: auto;
+    padding: 5px;
+}
+
+.title {
+    font-size: clamp(1rem,2vw,1.2rem);
+}
+
+.text {
+    font-size: clamp(0.8rem,2vw,0.9rem);
+}
