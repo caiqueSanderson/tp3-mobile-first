@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.image {
+    width: 80px;
+}
+
+.title {
+    font-size: clamp(0.6rem,4vw,0.8rem);
+}
+
+.text {
+    font-size: clamp(0.5rem,4vw,0.6rem);
+}

@@ -32,6 +32,12 @@ export default function App() {
       <li>
         <a href="src/10/index.html">TP3.10</a>
       </li>
+      <li>
+        <a href="src/11/index.html">TP3.11</a>
+      </li>
+      <li>
+        <a href="src/12/index.html">TP3.12</a>
+      </li>
     </ul>
     </>
   )

@@ -1,0 +1,67 @@
+.textAlign {
+    text-align: center;
+}
+
+.imageProduct {
+    width: 100vw;
+}
+
+.image {
+    width: 100vw;
+}
+
+.click {
+    cursor: pointer;
+
+}
+
+.click:hover {
+    color: rgb(187, 15, 15);
+}
+
+.description {
+    text-align: center;
+    background-color: rgb(187, 15, 15);
+    color: white;
+}
+
+.specifications>li {
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (min-width:600px) {
+    .container {
+        display: flex;
+    }
+
+    .containerTop {
+        width: 50vw;
+    }
+
+    .header{
+        background-color: rgb(187, 15, 15);
+        color: white;
+        padding: 15px;
+    }
+
+    .image {
+        width: 30vw;
+    }
+
+    .imageProduct {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description {
+        width: 50vw;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

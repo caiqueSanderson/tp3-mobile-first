@@ -1,0 +1,87 @@
+/* Themes */
+.ligthTheme{
+  color: black;
+  background-color: aliceblue;
+}
+
+.darkTheme{
+  color: white;
+  background-color: rgb(53, 0, 0);
+}
+
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo .image {
+    margin-left: 15px;
+    width: 50px;
+  }
+  
+  .menuToggle {
+    margin-right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  .menuItem {
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu.show {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (min-width: 600px) {
+    .menuToggle {
+      display: none;
+    }
+  
+    .header {
+      justify-content: space-around;
+      height: 60px;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      position: static;
+      width: auto;
+      gap: 60px;
+      padding: 0;
+    }
+  
+    .menuItem {
+      padding: 0;
+    }
+  
+    .menuItem:hover {
+      color: rgb(187, 15, 15);
+    }
+  }
+  
